@@ -1,0 +1,15 @@
+{
+  "name": "ldaptest",
+  "version": "1.0.0",
+  "description": "qwer",
+  "main": "queryLDAP.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ldapjs": "^2.2.0",
+    "nodemon": "^2.0.6"
+  }
+}

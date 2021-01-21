@@ -1,0 +1,51 @@
+dn: cn=babs,ou=location1,dc=jenhao,dc=com
+objectClass: Person
+ou: location1
+cn: babs
+cn: Babs Jensen123123
+sn: chang
+title: the world's most famous mythical manager
+mail: [email protected]
+uid: bjensen123
+
+dn: cn=joe,ou=location1,dc=jenhao,dc=com
+objectClass: Person
+ou: location1
+cn: joe
+cn: joesm
+sn: smith
+title: asdasd
+mail: [email protected]
+uid: joeweqe
+
+dn: cn=amy,ou=location2,dc=jenhao,dc=com
+objectClass: Person
+ou: location2
+cn: amy
+sn: lee
+title: the world's most famous mythical manager
+mail: [email protected]
+uid: bjensen123
+
+dn: cn=Ken,ou=location2,dc=jenhao,dc=com
+objectClass: Person
+ou: location2
+cn: Ken
+sn: yang
+userPassword: {SSHA}B0/RzG5dL4stPl0NRmNAnSGwicIog3Yk
+title: the world's most famous mythical manager
+mail: [email protected]
+uid: kenyan312
+
+# location1 node
+dn: ou=location1,dc=jenhao,dc=com
+objectClass: OrganizationalUnit
+ou: location1
+
+# location2 node
+dn: ou=location2,dc=jenhao,dc=com
+objectClass: OrganizationalUnit
+ou: location2
+
+dn: dc=jenhao,dc=com
+objectClass: top
